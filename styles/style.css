@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    /* Margin - Limpa uma área fora da borda. A margem é transparente*/
+    margin: 0px;
+
+    /* Padding - Limpa uma área ao redor do conteúdo. O enchimento é transparente*/
+    padding: 0px;
+} 
+
+/* Vavriáveis em Css */
+
+:root {
+    --cor--preta: #000000;
+    --cor--branca: #ffffff;
+    --cor--azul: #0174DF;
+    --cor--verde: #04B404;
+    --cor--cinza: #848484;
+    --cor--laranja: #FF8000;
+    --fonte:'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--fonte);
+}
+
+.container {
+    display: flex;
+}
+
